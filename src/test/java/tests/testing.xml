@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <test name="VerifyOrderingABookSuccessfully">
+        <classes>
+            <class name="tests.VerifyOrderingABookSuccessfully" />
+
+        </classes>
+    </test>
+    <test name="VerifySuccessfullyAddingABookToTheWishlist">
+        <classes>
+            <class name="tests.VerifySuccessfullyAddingABookToWishlist" />
+        </classes>
+    </test>
+
+    <test name="VerifySuccessfullyEditingTheWishlistTitle">
+        <classes>
+            <class name="tests.VerifySuccessfullyEditingTheWishlistTitle" />
+        </classes>
+    </test>
+</suite>
